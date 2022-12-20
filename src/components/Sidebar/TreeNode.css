@@ -1,0 +1,30 @@
+span {
+  padding: 0 10px 0 0;
+}
+
+.tree_node-dropdown {
+  position: relative;
+}
+
+.dropdown-dropdown_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -40px;
+  top: calc(100% + .25rem);
+  background-color: white;
+  padding: .3rem;
+  width: 100px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
+}
+
+.dropdown-dropdown_menu.inactive {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dropdown-dropdown_menu.active {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1000;
+}

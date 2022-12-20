@@ -1,0 +1,42 @@
+header {
+  background: #fff;
+}
+header .component-navbar {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .component-navbar-links {
+  display: flex;
+  align-items: center;
+
+}
+header .component-navbar-links a {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 10px;
+}
+nav button {
+  margin: 10px;
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-size: 1em;
+}

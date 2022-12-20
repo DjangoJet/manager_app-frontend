@@ -1,0 +1,8 @@
+.component-sidebar {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  background-color: bisque;
+  height: inherit;
+  padding: 10px;
+}

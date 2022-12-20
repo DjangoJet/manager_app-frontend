@@ -1,0 +1,8 @@
+.page-collections {
+  display: flex;
+  height: inherit;
+}
+
+.page-collections-container {
+  padding: 20px;
+}
